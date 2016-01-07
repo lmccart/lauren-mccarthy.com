@@ -1,0 +1,158 @@
+body {
+  padding: 80px 100px;
+  font: 18px Times, Arial, sans-serif;
+  line-height: 30px;
+}
+
+#container {
+  margin: 0 auto;
+  width: 600px;
+}
+
+
+
+textarea {
+  width: 100%;
+  border: 2px dashed #53CCFC !important;
+  margin-top: 10px !important;
+  padding: 5px !important;
+}
+
+input {
+  width: 200px;
+}
+
+select, input, textarea {
+  padding:0;
+  margin: 0;
+  color:#53CCFC;
+  border:0;
+  outline:none !important;
+  display: inline-block;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+  cursor:pointer;
+
+  font: 18px Times, Arial, sans-serif;
+}
+
+.button {
+  cursor: pointer;
+}
+
+.button img, .button div {
+  width: 100%;
+}
+
+.button div {
+  text-align: center;
+  display: none;
+}
+
+/*** DONE BUTTONS ***/
+#done {
+  height: 80px;
+  width: 135px;
+  margin: 0 auto;
+  padding-left: 15px;
+}
+
+#send {
+  width: 43px;
+  margin: 20px 25px 0 0;
+  float: left;
+  position: relative;
+}
+
+#copy {
+  width: 67px;
+  float: left;
+  position: relative;
+}
+
+#copy div {
+  margin-top: -5px;
+}
+
+
+/*** PREVIEW ***/
+
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.75;
+  background: white;
+  display: none;
+}
+
+#preview {
+  background: white;
+  border: 2px dashed black;
+  position: absolute;
+  top: 40px;
+  width: 500px;
+  margin: 50px;
+  padding: 10px;
+  z-index: 2;
+  display: none;
+}
+
+#x {
+  margin: -8px 2px 0 0;
+  float: right;
+  cursor: pointer;
+}
+
+#letter {
+  padding: 20px;
+}
+
+#note {
+  color: white;
+  background: #53CCFC;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: none;
+  z-index: 3;
+}
+
+/*** SHARE BUTTONS ***/
+
+#share {
+  height: 50px;
+  width: 114px;
+  margin: 0 auto;
+}
+
+#twitter {
+  width: 40px;
+  float: left;
+  position: relative;
+}
+
+#facebook {
+  width: 40px;
+  float: left;
+  position: relative;
+}
+
+#tumblr {
+  width: 34px;
+  float: left;
+  position: relative;
+  margin-top: 3px;
+}
+
+#twitter div {
+}
