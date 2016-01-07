@@ -1,6 +1,6 @@
 @charset "utf-8";
 body  {
-	font-family: "camingodos-web-1","camingodos-web-2",sans-serif;
+	font-family: "akagi-pro-1","akagi-pro-2", "camingodos-web-1","camingodos-web-2",sans-serif;
 	font-size: 14px;
 	margin: 40px 0;
 	padding: 0;
@@ -18,7 +18,7 @@ body  {
 
 p {
 	margin:0;
-	padding:0 0 40px 0;
+	padding:0 0 20px 0;
 }
 
 div p.title{
