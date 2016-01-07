@@ -1,0 +1,511 @@
+@charset "utf-8";
+body  {
+	font-family: "camingodos-web-1","camingodos-web-2",sans-serif;
+	font-size: 14px;
+	margin: 40px 0;
+	padding: 0;
+	text-align: left;
+    line-height: 18px;
+    width: 100%;
+    display: block;
+    height: 100%;
+}
+
+.typekit-badge {
+	display: none !important;
+}
+
+
+p {
+	margin:0;
+	padding:0 0 40px 0;
+}
+
+div p.title{
+	margin: 0 0 40px 0;
+	padding: 0;
+	font-size: 300%;
+	line-height: 44px;
+	color: #FF0000;
+	font-weight: lighter;
+	float: left;
+	width: 840px;
+}
+
+div .title .date{
+	color:#000000;
+}
+
+div .small{
+	font-size: 40%;
+}
+
+div .right-justify{
+	text-align:right;
+	padding-top: 5em;
+}
+
+div .bold{
+	font-weight:bold;
+}
+
+div .red{
+	color:#FF0000;
+}
+
+div .italic{
+	font-style:italic;
+}
+
+div .orange{
+	color:#FF9900;
+}
+
+div p.summary, p.subtitle{
+	margin-bottom: 40px;
+	padding:0;
+	font-size: 24px;
+	color:#ABABAB;
+	line-height:1.4em;
+	font-weight: lighter;
+	float: left;
+	width: 840px;
+}
+
+
+p.more:hover{
+	cursor:pointer;
+	color:#FF0000;
+}
+
+div p.more{
+	color:#ABABAB;
+	margin-bottom: 20px;
+}
+
+div p.more:visited{
+	color:#FFFFFF;
+}
+
+
+
+div p.description{
+	text-align:left;
+	margin-bottom:20px;
+	font-weight: normal;
+}
+
+#container {
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+body:after, #content:after, #sidebar:after, #holder:after { content: " "; display: block; clear: both;} 
+
+#holder {
+	margin-top: 40px;
+}
+
+#content, #sidebar, #holder {
+	width: 840px;
+	margin: 0 auto;
+}
+
+#sidebar {
+	margin-bottom: 40px;
+	text-align: right;
+}
+
+
+#entry, #page, .narrowcolumn {
+	width: 600px;
+}
+
+#description {
+	float: left; 
+	width: 19em; 
+	margin-right:2em;
+}  
+
+#resume_right{
+	float: right;
+	width: 372px;
+}
+
+#resume_right img {
+  padding: 0;
+  width: 100%;
+}
+
+#resume_left{
+	float: left;
+	width: 448px;
+}
+
+/** images, video **/
+img, embed, iframe
+{
+	float:right;
+	width:39em;
+	margin-bottom:20px;
+}
+
+.skinny {
+	width: 19em;
+}
+
+.entry img, .entry iframe, .entry embed {
+        margin: 0 0 40px 0;
+        float: left;
+        width: 600px; 
+}
+
+.splash{
+	float:left;
+	width:29em;
+	margin-right:1em;
+	border:0;
+}
+
+.head_splash{
+	float:left;
+	width:23em;
+	margin-right:37em;
+	border:0;
+}
+
+img.focus{
+	float:left;
+	width:26em;
+	margin:0 2em 1em 0;
+}
+
+.full{
+	float:left;
+	width: 840px;
+}
+
+.fullTall{
+	float:left;
+	width: 39em;
+	padding-right:21em;
+}
+
+#projectImage, imageElement {
+	float: right; 
+	height: 26em;
+	width: 39em;
+}  
+
+
+#tallImage {
+	float: right; 
+	height: auto;
+	width: 39em;
+	margin-bottom:3em;
+}
+ 
+.nonFullImage {
+	float: left; 
+	width: 39em;
+	padding-right: 21em;
+}  
+
+#fullImage {
+	float: right; 
+	height: auto;
+	width: 840px;
+	margin-bottom:4em;
+}  
+
+
+#fullVideo {
+	float: right; 
+	width: 840px;
+	height: 33.4em;
+}
+ 
+
+
+.nonFullVideo {
+	float: left; 
+	width: 39em;
+	height: 21.7em;
+	padding-right: 21em;
+}
+ 
+
+
+.thumbnailImage {
+	float: left;
+	width:201px;
+	height:201px;
+	margin: 0 12px 12px 0;
+}
+
+.rightThumb {
+	margin-right: 0px !important;
+}
+
+.thumbnailBox {
+	float: left;
+	width: 14em;
+	height: 14em;
+	margin-right:1em;
+	margin-bottom:1em;
+	background-color: rgba(171,171,171,0.5);
+}
+
+.thumbnailTitle {
+	position: absolute;
+	z-index: 1;
+	margin: 1.3em 0 0 0.8em;
+	float: left;
+	font-size: 185%;
+	line-height:1.4em;
+}
+
+
+.thumbnailImage.right{
+	margin-left:21em;
+}
+
+.thumbnailImage .text {
+	position: absolute;
+	padding: 0.5em 0.65em;
+	width: 13.1em;
+	background-color:black;
+	color: white;
+	display: none;
+}
+
+.thumbnailImage .date {
+	color:rgba(100,100,100,1.0);
+}
+
+.thumbnailImage a:hover {
+	color: #000000;
+}
+
+#imgBox {
+	width:39em;
+	height:26em;
+}
+
+#projectImage ul{
+	margin-top: 1em;
+}
+
+#backLink {
+	margin-top:1.75em;
+}
+
+div img.thumbImg {
+	width:100%;
+	height:100%;
+	border:0;
+}
+
+
+
+
+
+
+#sidebar ul { 
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+p.subtitle {
+	font-weight: lighter;
+	margin-bottom: 20px;
+}
+
+#sidebar li{ 
+	font-weight: normal;
+}
+ 
+#sidebar li { /*Style for LI elements in general (excludes an LI that contains sub lists)*/
+	list-style-type: none;
+	display:inline;
+	
+}
+
+#sidebar li, #extras li {
+	padding-left:1em;
+}
+
+
+
+a{
+	text-decoration: none;
+	color:#000000;
+	outline:none;
+}
+
+.gray{
+	color: #ABABAB;
+}
+
+.year{
+	color: #E7E7E7;
+}
+
+a.back {
+	color:#FFFFFF;
+	background: #ABABAB;
+	padding: 0.5em;
+	margin: 0 0 10em 0;
+}
+
+
+a:hover {
+	color:#FF0000;
+}
+
+a.back:hover {
+	color: #FFFFFF;
+	background: #FF0000;
+	cursor: pointer;
+}
+
+
+/* wordpress extra stuff */
+code {
+  font-family: monospace !important;
+}
+.post {
+	font-family: "camingodos-web-1","camingodos-web-2",sans-serif;
+  float: left;
+  width: 600px;
+}
+
+.post p {
+  padding-bottom: 18px !important;
+}
+
+h1{
+	margin:0;
+	padding-bottom:0.3em;
+	font-size: 300%;
+	color: #FF0000;
+	font-weight: lighter;
+	}
+
+h1 a{
+	color: #FF0000;
+	font-weight: lighter;
+}
+
+
+h2{
+	margin:1em 0 0 0;
+	padding:0;
+	font-size: 175%;
+	color:#ABABAB;
+	line-height:1.4em;
+	font-weight: lighter;
+}
+
+.date {
+        color:#ABABAB;
+        margin: 0 0 1em 0;
+}
+
+h2 a{
+	color:#ABABAB;
+}
+
+
+h3{
+	font-size: 100%;
+	font-weight: bold;
+}
+
+.entry {
+	font-weight: normal;
+}
+
+/* Begin Form Elements */
+#searchform {
+	margin: 10px auto;
+	padding: 5px 3px;
+	}
+
+#extras #searchform #s {
+	width: 108px;
+	padding: 2px;
+	}
+
+#extras #searchsubmit {
+	padding: 1px;
+ 	cursor: pointer;
+	}
+
+.entry form { /* This is mainly for password protected posts, makes them look better. */
+	text-align:left;
+	}
+
+select {
+	width: 130px;
+	}
+
+
+
+input, textarea
+ {
+ 	border: #ddd 1px solid;
+ 	background-color: #ffffff;
+ 	font-size:1em;
+ 	font-weight: normal;
+ }
+
+#searchsubmit 
+ {
+ 	cursor: pointer;
+ 	text-decoration:none;
+ }
+
+
+
+.postmetadata {
+	font-size:80%;
+	color:#ABABAB;
+
+}
+
+.commentlist{
+	margin-bottom:3em;
+}
+
+
+.hidden {
+	display: none;
+	}
+
+hr {
+	display: none;
+	}
+	
+	
+/** SPECIAL STUFFS **/
+.fb, a.fb:hover {
+  color: #4c66a4;
+}
+
+a.back.fb:hover {
+  color: white;
+  background: #4c66a4;
+}
+
+.bullets  {
+	list-style-type: circle !important: 
+	text-align: left;
+	float: left;
+	margin: 0
+}
+
+	
+	
+	

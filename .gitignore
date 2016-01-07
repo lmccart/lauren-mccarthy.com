@@ -1,0 +1,7 @@
+*.mov
+*.mp4
+private/*
+video/*
+test/*
+bkp/*
+out/*
